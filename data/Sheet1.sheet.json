@@ -1,0 +1,42 @@
+[
+  {
+    "value": 5,
+    "point": "Gary Payton",
+    "shooting": "Ray Allen",
+    "forward": "Xavier McDaniel",
+    "power": "Shawn Kemp",
+    "center": "Jack Sikma"
+  },
+  {
+    "value": 4,
+    "point": "Gus Williams",
+    "shooting": "Dale Ellis",
+    "forward": "Rashard Lewis",
+    "power": "Spencer Haywood",
+    "center": "Bob Rule"
+  },
+  {
+    "value": 3,
+    "point": "Lenny Wilkens",
+    "shooting": "Fred Brown",
+    "forward": "Detlef Schrempf",
+    "power": "Tom Chambers",
+    "center": "Michael Cage"
+  },
+  {
+    "value": 2,
+    "point": "Nate McMillan",
+    "shooting": "Dennis Johnson",
+    "forward": "Kevin Durant",
+    "power": "Sam Perkins",
+    "center": "Tom Burleson"
+  },
+  {
+    "value": 1,
+    "point": "Slick Watts",
+    "shooting": "Ricky Pierce",
+    "forward": "Derrick McKey",
+    "power": "Lonnie Shelton",
+    "center": "Marvin Webster"
+  }
+]

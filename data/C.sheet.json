@@ -1,0 +1,67 @@
+[
+  {
+    "value": 5,
+    "position": "center",
+    "player": "Jack Sikma",
+    "years": "1977-1986",
+    "points": 16.8,
+    "assists": 3.3,
+    "rebounds": 10.8,
+    "steals": 1.1,
+    "percent": 47.1,
+    "per": 18.1,
+    "mug": "jacksikma.jpg"
+  },
+  {
+    "value": 4,
+    "position": "center",
+    "player": "Bob Rule",
+    "years": "1967-1972",
+    "points": 21.4,
+    "assists": 1.5,
+    "rebounds": "10.0",
+    "steals": "n/a",
+    "percent": 46.9,
+    "per": 17.8,
+    "mug": "bobrule.jpg"
+  },
+  {
+    "value": 3,
+    "position": "center",
+    "player": "Michael Cage",
+    "years": "1988-1994",
+    "points": 7.6,
+    "assists": "1.0",
+    "rebounds": 8.1,
+    "steals": "1.0",
+    "percent": 52.2,
+    "per": 15.7,
+    "mug": "michaelcage.jpg"
+  },
+  {
+    "value": 2,
+    "position": "center",
+    "player": "Tom Burleson",
+    "years": "1974-1977",
+    "points": 11.8,
+    "assists": 1.6,
+    "rebounds": 7.6,
+    "steals": 1.6,
+    "percent": "45.0",
+    "per": 16.9,
+    "mug": "tomburleson.jpg"
+  },
+  {
+    "value": 1,
+    "position": "center",
+    "player": "Marvin Webster",
+    "years": "1977-1978",
+    "points": "14.0",
+    "assists": 2.5,
+    "rebounds": 12.6,
+    "steals": 0.6,
+    "percent": 50.2,
+    "per": "17.0",
+    "mug": "marvinwebster.jpg"
+  }
+]

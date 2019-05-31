@@ -1,0 +1,67 @@
+[
+  {
+    "value": 5,
+    "position": "shooting-guard",
+    "player": "Ray Allen",
+    "years": "2002-2007",
+    "points": 24.6,
+    "assists": 4.2,
+    "rebounds": 4.6,
+    "steals": 1.3,
+    "percent": "44.0",
+    "per": 21.8,
+    "mug": "rayallen.jpg"
+  },
+  {
+    "value": 4,
+    "position": "shooting-guard",
+    "player": "Dale Ellis",
+    "years": "1986-1991; 1997-1999",
+    "points": 20.9,
+    "assists": "2.0",
+    "rebounds": 3.9,
+    "steals": "1.0",
+    "percent": 49.8,
+    "per": 18.3,
+    "mug": "daleellis.jpg"
+  },
+  {
+    "value": 3,
+    "position": "shooting-guard",
+    "player": "Fred Brown",
+    "years": "1971-1984",
+    "points": 14.6,
+    "assists": 3.3,
+    "rebounds": 2.7,
+    "steals": 1.4,
+    "percent": 47.8,
+    "per": 17.7,
+    "mug": "fredbrown.jpg"
+  },
+  {
+    "value": 2,
+    "position": "shooting-guard",
+    "player": "Dennis Johnson",
+    "years": "1976-1980",
+    "points": 14.2,
+    "assists": "3.0",
+    "rebounds": 4.3,
+    "steals": 1.5,
+    "percent": 43.6,
+    "per": 15.7,
+    "mug": "dennisjohnson.jpg"
+  },
+  {
+    "value": 1,
+    "position": "shooting-guard",
+    "player": "Ricky Pierce",
+    "years": "1990-1994",
+    "points": 18.5,
+    "assists": 2.6,
+    "rebounds": 2.4,
+    "steals": 1.1,
+    "percent": 47.7,
+    "per": "19.0",
+    "mug": "rickypierce.jpg"
+  }
+]

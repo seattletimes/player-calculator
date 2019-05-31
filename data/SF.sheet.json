@@ -1,0 +1,67 @@
+[
+  {
+    "value": 5,
+    "position": "small-forward",
+    "player": "Xavier McDaniel",
+    "years": "1985-1991",
+    "points": 20.7,
+    "assists": 2.5,
+    "rebounds": "7.0",
+    "steals": 1.2,
+    "percent": 49.4,
+    "per": 17.9,
+    "mug": "xaviermcdaniel.jpg"
+  },
+  {
+    "value": 4,
+    "position": "small-forward",
+    "player": "Rashard Lewis",
+    "years": "1998-2007",
+    "points": 16.6,
+    "assists": 1.7,
+    "rebounds": 5.8,
+    "steals": 1.1,
+    "percent": 46.1,
+    "per": 18.3,
+    "mug": "rashardlewis.jpg"
+  },
+  {
+    "value": 3,
+    "position": "small-forward",
+    "player": "Detlef Schrempf",
+    "years": "1993-1999",
+    "points": 16.6,
+    "assists": "4.0",
+    "rebounds": 6.3,
+    "steals": 0.9,
+    "percent": 49.4,
+    "per": 18,
+    "mug": "detlefschrempf.jpg"
+  },
+  {
+    "value": 2,
+    "position": "small-forward",
+    "player": "Kevin Durant",
+    "years": "2007-2008",
+    "points": 20.3,
+    "assists": 2.4,
+    "rebounds": 4.4,
+    "steals": "1.0",
+    "percent": "43.0",
+    "per": 15.8,
+    "mug": "kevindurant.jpg"
+  },
+  {
+    "value": 1,
+    "position": "small-forward",
+    "player": "Derrick McKey",
+    "years": "1987-1993",
+    "points": 13.9,
+    "assists": 2.2,
+    "rebounds": 5.2,
+    "steals": 1.2,
+    "percent": 49.7,
+    "per": 15.2,
+    "mug": "derrickmckey.jpg"
+  }
+]

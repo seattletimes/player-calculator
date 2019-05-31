@@ -1,0 +1,228 @@
+@import "seattletimes";
+
+body {
+  background-image: url("./assets/photos/dt-bkgrd-sm.jpg");
+  
+}
+
+header {
+  width:100%;
+  max-width:960px;
+  margin: 40px auto 0;
+  padding:0 40px;
+  text-align:center;
+  font-family:@df-sans;
+
+  @media @mobile {
+  margin: 40px auto 0 10px;
+  padding:20px;
+  max-width:100%;
+  }
+}
+
+main.interactive {
+ display:flex;
+ border:none;
+ width:100%;
+ max-width:960px;
+  
+
+ @media @mobile {
+ display:block;
+ max-width:75%;
+ }	
+}
+
+.selected {
+  background-color: #173F35;
+   color: white;
+}
+
+
+.container {
+	width:100%;
+	flex-direction:column;
+	margin:0 20px 0 0;
+	max-width:300px;
+  padding:0 20px 0 0;
+  border-right: 1px solid @df-light-gray;
+
+h3 {
+    font-size:16px;
+    color:white;
+  }
+
+  @media @mobile {
+  font-size:21px;
+  display:block;
+  max-width:100%;
+  border:none;
+  padding:0;
+  }
+}
+
+a div {
+  color:white;
+}
+
+.container:nth-child(5) {
+    border-right: none;
+    padding:0;
+    margin:0;
+  }
+
+.player-container {
+  margin-bottom:15px;
+}
+
+.chatter {
+	text-align:center;
+	max-width:960px;
+	margin:20px auto 0px;
+}
+
+ul {
+	text-align:center;
+
+}
+
+li {
+	display: inline-block;
+	font-size: 19px;
+	font-weight: bold;
+	padding:10px;
+}
+
+button {
+   border-top: 5px solid #FFC200;
+   background-color: white;
+   padding: 5px 10px;
+   -webkit-border-radius: 0px;
+   -moz-border-radius: 0px;
+   border-radius: 0px;
+   color: black;
+   font-size: 14px;
+   text-decoration: none;
+   vertical-align: middle;
+   width:100%;
+   text-align:left;
+   }
+
+button:hover {
+   background-color: #173F35;
+   color: white;
+   }
+
+button:visited {
+   background-color: #173F35;
+   color: white;
+   }
+
+input:checked ~ .responses {
+		display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+		opacity:1;
+		transition: 0.5s ease;
+	}
+
+	input:checked + .excerpt {
+		display: none;
+	}
+
+	.responses {
+		display:none;
+		opacity:0;
+		font-size:12px;
+		z-index:999;
+		transition: 0.5s ease;
+    color:white;
+	}
+
+  .stats {
+  padding-top:5px;
+  }
+	
+.name {
+	font-size: 12px;
+	font-weight: bold;
+  padding-top:5px;
+	align-items:flex-start;
+	align-content:flex-start;
+}
+
+p.label{
+  display:inline;
+}
+
+.label {
+	text-transform:uppercase;
+	font-weight: bold; 
+	font-size: 14px;
+}
+
+p.candidate-info {
+  display:inline;
+}
+
+.candidate-info {
+	font-weight: bold; 
+	font-size: 14px;
+	margin: 0 auto;
+}
+
+.candidate-prefix {
+  display:inline;
+  font-weight: bold; 
+  font-size: 14px;
+  margin: 0 auto;
+}
+
+.candidate-stats {
+	font-size: 14px;
+	margin:0 auto;
+}
+
+.candidate-photo {
+  float:right;
+  width:40%;
+  margin-left:5px;
+  border-radius:100%;
+  display:inline;
+}
+
+.outmost {
+  border-top: 1px solid @df-border-gray;
+  border-bottom: 1px solid @df-border-gray;
+  padding: 8px 0;
+  margin: 20px auto;
+  max-width: 960px;
+  padding-bottom: 0;
+  clear: both;
+}
+
+.map-container {
+  position: relative;
+}
+.bigheader {
+  text-align: center;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin: 12px 0 0;
+  @media @tablet {
+    font-size: 14px;
+  }
+}
+
+
+
+.chatter {
+  h1 {
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.2;
+  }
+  p {
+    text-align: center;
+    font-family: @df-serif;
+  }
+}

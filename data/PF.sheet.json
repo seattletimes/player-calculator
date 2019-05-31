@@ -1,0 +1,67 @@
+[
+  {
+    "value": 5,
+    "position": "power-forward",
+    "player": "Shawn Kemp",
+    "years": "1989-1997",
+    "points": 16.2,
+    "assists": 1.8,
+    "rebounds": 9.6,
+    "steals": 1.2,
+    "percent": 52.1,
+    "per": 20.8,
+    "mug": "shawnkemp.jpg"
+  },
+  {
+    "value": 4,
+    "position": "power-forward",
+    "player": "Spencer Haywood",
+    "years": "1970-1975",
+    "points": 24.9,
+    "assists": 2.4,
+    "rebounds": 12.1,
+    "steals": 0.8,
+    "percent": 46.3,
+    "per": 20.1,
+    "mug": "spencerhaywood.jpg"
+  },
+  {
+    "value": 3,
+    "position": "power-forward",
+    "player": "Tom Chambers",
+    "years": "1983-1988",
+    "points": 20.4,
+    "assists": 2.4,
+    "rebounds": 6.6,
+    "steals": 0.9,
+    "percent": 46.9,
+    "per": 16.8,
+    "mug": "tomchambers.jpg"
+  },
+  {
+    "value": 2,
+    "position": "power-forward",
+    "player": "Sam Perkins",
+    "years": "1992-1998",
+    "points": 11.1,
+    "assists": 1.4,
+    "rebounds": 4.2,
+    "steals": 0.9,
+    "percent": "44.0",
+    "per": 15.6,
+    "mug": "samperkins.jpg"
+  },
+  {
+    "value": 1,
+    "position": "power-forward",
+    "player": "Lonnie Shelton",
+    "years": "1978-1983",
+    "points": 13.6,
+    "assists": 2.4,
+    "rebounds": 6.5,
+    "steals": 1.1,
+    "percent": 49.8,
+    "per": 14.4,
+    "mug": "lonnieshelton.jpg"
+  }
+]

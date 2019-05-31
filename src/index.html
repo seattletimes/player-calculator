@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <%= t.include("partials/_head.html", grunt.data.json) %>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+  <responsive-child>
+
+<header>
+    <div><img style="width:300px" src="./assets/sonics-dream-team-logo.png"><p style="color:white;">Imagine you could take the best Sonics players in the history of the franchise and create your personal dream team. Well now you can — there’s just one catch. There are 25 players to choose from. You need a starting five, and you can’t spend more than $15. Remember: Only each player’s Sonics career is what counts here.</p></div>
+    <div><h3 style="font-size:24px;color:white;text-align:center">BUDGET: <span id="total-display">$15</span></h3><button style="max-width:100px;text-align: center" id="btnreset">RESET</button>
+    <h3 style="font-size:14px;color:white;text-align:center">YOUR TEAM: <span id="roster-display"></span></h3></div>
+    
+    
+  </header>
+  
+    <main class="interactive">
+
+      <!-- content goes here -->
+      
+      <section class="container">
+      <h3>Point guard</h3>           
+        <% json.PG.forEach(function(item, i) { %>
+          <%= t.include("_details.html", { item: item, index: i }) %>
+        <% }) %>
+    </section>
+    <section class="container">
+    <h3>Shooting guard</h3>
+        <% json.SG.forEach(function(item, i) { %>
+          <%= t.include("_details.html", { item: item, index: i }) %>
+        <% }) %>
+    </section>
+    
+    <section class="container">
+    <h3>Small forward</h3>
+        <% json.SF.forEach(function(item, i) { %>
+          <%= t.include("_details.html", { item: item, index: i }) %>
+        <% }) %>
+    </section>
+    <section class="container">
+    <h3>Power forward</h3>
+        <% json.PF.forEach(function(item, i) { %>
+          <%= t.include("_details.html", { item: item, index: i }) %>
+        <% }) %>
+    </section>
+    <section class="container">
+    <h3>Center</h3>
+        <% json.C.forEach(function(item, i) { %>
+          <%= t.include("_details.html", { item: item, index: i }) %>
+        <% }) %>
+    </section>
+    
+
+      
+    </main>
+    </responsive-child>
+
+    <script src="app.js" async></script>
+    <% if (json.project.production) { %>
+    <%= !json.project.embedded ? t.include("partials/_analytics.html") : "" %>
+    <%= t.include("partials/_workHere.html") %>
+    <% } %>
+
+
+  </body>
+</html>

@@ -1,0 +1,20 @@
+{
+  "s3": {
+    "stage": {
+      "bucket": "projects-staging.seattletimes.com",
+      "path": "compound-tape"
+    },
+    "live": {
+      "bucket": "projects.seattletimes.com",
+      "path": "/2019/draft-your-sonics-dream-team/"
+    }
+  },
+  "title": "",
+  "description": "",
+  "url": "https://projects.seattletimes.com/2019/draft-your-sonics-dream-team/",
+  "image": "assets/social.jpg",
+  "sheets": ["1kNBKmbfu-Rs024G7teWHdZfkyZF6wUMO4E19ZQSL42c"],
+  "standout": false,
+  "embedded": true,
+  "production": true
+}

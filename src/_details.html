@@ -1,0 +1,24 @@
+<div class="player-container">
+   <button id="btn<%= item.position %><%= index %>">
+      <img class="candidate-photo" src="./assets/photos/<%= item.mug %>"/>
+      <p class="candidate-prefix">$</p>
+      <p class="label"><%= item.value %></p><br>
+      <p class="candidate-info"> <%= item.player %> </p>
+   </button>
+                  
+
+   <div class="stats">
+      <label for="more<%= item.player %><%= index %>" class="name"><a><div>> Stats: <%= item.years %> </div></a></strong></label>
+      </div>
+
+      <input type="checkbox" style="display:none;" id="more<%= item.player %><%= index %>"/>
+      <div class="responses">
+
+         <p><strong>PTS</strong><br> <%= item.points %></p>
+         <p><strong>AST</strong><br> <%= item.assists %> </p>
+         <p><strong>REB</strong><br> <%= item.rebounds %> </p>
+         <p><strong>STL</strong><br> <%= item.steals %> </p>
+         <p> <strong>FG% </strong><br><%= item.percent %> </p>
+         <p> <strong>PER </strong><br><%= item.per %></p>
+      </div>
+</div>

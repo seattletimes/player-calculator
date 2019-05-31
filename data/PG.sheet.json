@@ -1,0 +1,67 @@
+[
+  {
+    "value": 5,
+    "position": "point-guard",
+    "player": "Gary Payton",
+    "years": "1990-2003",
+    "points": 18.2,
+    "assists": 7.4,
+    "rebounds": 4.2,
+    "steals": 2.1,
+    "percent": 46.9,
+    "per": 20.1,
+    "mug": "garypayton.jpg"
+  },
+  {
+    "value": 4,
+    "position": "point-guard",
+    "player": "Gus Williams",
+    "years": "1977-1984",
+    "points": 20.3,
+    "assists": "6.0",
+    "rebounds": "3.0",
+    "steals": 2.3,
+    "percent": 47.5,
+    "per": 20.2,
+    "mug": "guswilliams.jpg"
+  },
+  {
+    "value": 3,
+    "position": "point-guard",
+    "player": "Lenny Wilkens",
+    "years": "1968-1972",
+    "points": 19.5,
+    "assists": "9.0",
+    "rebounds": "5.0",
+    "steals": "n/a",
+    "percent": 43.6,
+    "per": 18.7,
+    "mug": "lennywilkens.jpg"
+  },
+  {
+    "value": 2,
+    "position": "point-guard",
+    "player": "Nate McMillan",
+    "years": "1986-1998",
+    "points": 5.9,
+    "assists": 6.1,
+    "rebounds": "4.0",
+    "steals": 1.9,
+    "percent": 44.3,
+    "per": 14.5,
+    "mug": "natemcmillan.jpg"
+  },
+  {
+    "value": 1,
+    "position": "point-guard",
+    "player": "Slick Watts",
+    "years": "1973-1978",
+    "points": 10.1,
+    "assists": 6.7,
+    "rebounds": 3.6,
+    "steals": 2.5,
+    "percent": 41.7,
+    "per": 15.5,
+    "mug": "slickwatts.jpg"
+  }
+]
