@@ -35,7 +35,7 @@ var button24 = document.querySelector('#btncenter4');
 var buttonReset = document.querySelector('#btnreset');
 var displayTotal = document.querySelector("#total-display");
 var displayRoster = document.querySelector("#roster-display");
-console.log(roster);
+
 
 var onClick = function() {
     buttonReset.addEventListener("click", reset);
@@ -50,6 +50,7 @@ var onClick = function() {
         for (i = 0; i < clicked.length; i++) {
         clicked[i].classList.remove("selected");
     }
+
     };
 
     button0.addEventListener("click", player0);
